@@ -1,0 +1,23 @@
+# Node / NPM
+node_modules/
+
+# Dependency directories
+/dist/
+/bower_components/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs and databases
+*.log
+*.sql
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# Compiled files
+*.min.css
+*.min.js

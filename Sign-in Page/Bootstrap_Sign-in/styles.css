@@ -1,0 +1,39 @@
+.container {
+  height: 100vh;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}

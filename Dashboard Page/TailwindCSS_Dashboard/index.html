@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Dashboard</title>
+  </head>
+
+  <body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <!--Nav-->
+    <nav class="bg-gray-800 p-2 mt-0 fixed w-full z-10 top-0">
+      <div class="container mx-auto flex flex-wrap items-center">
+        <div
+          class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold"
+        >
+          <a
+            class="text-white no-underline hover:text-white hover:no-underline"
+            href="#"
+          >
+            <span class="text-2xl pl-2"
+              ><i class="fas fa-chart-line pr-2"></i>Dashboard</span
+            >
+          </a>
+        </div>
+        <div
+          class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end"
+        >
+          <ul
+            class="list-reset flex justify-between flex-1 md:flex-none items-center"
+          >
+            <li class="mr-3">
+              <a class="inline-block py-2 px-4 text-white no-underline" href="#"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li class="mr-3">
+              <a
+                class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-4"
+                href="#"
+                ><i class="fas fa-cogs"></i> Services</a
+              >
+            </li>
+            <li class="mr-3">
+              <a
+                class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-4"
+                href="#"
+                ><i class="fas fa-info-circle"></i> About</a
+              >
+            </li>
+            <li class="mr-3">
+              <a
+                class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-4"
+                href="#"
+                ><i class="fas fa-address-book"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Main-->
+    <div class="flex flex-col md:flex-row">
+      <!--Sidebar-->
+      <div class="bg-gray-800 w-64 md:w-1/6 h-screen">
+        <div class="text-white text-2xl pl-4 pt-4">
+          <i class="fas fa-bars pr-2"></i>Menu
+        </div>
+        <ul class="list-reset flex flex-col mt-4">
+          <li class="w-full h-12 px-4 flex items-center">
+            <a class="text-white no-underline hover:text-gray-200" href="#"
+              ><i class="fas fa-link pr-2"></i>Link 1</a
+            >
+          </li>
+          <li class="w-full h-12 px-4 flex items-center">
+            <a class="text-white no-underline hover:text-gray-200" href="#"
+              ><i class="fas fa-link pr-2"></i>Link 2</a
+            >
+          </li>
+          <li class="w-full h-12 px-4 flex items-center">
+            <a class="text-white no-underline hover:text-gray-200" href="#"
+              ><i class="fas fa-link pr-2"></i>Link 3</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!--Content-->
+      <div class="bg-gray-100 w-full h-screen md:w-5/6 p-6">
+        <div class="text-gray-700 text-3xl font-medium mb-4">
+          Welcome to Your Dashboard
+        </div>
+        <p class="text-gray-700 text-lg">
+          You have full control and access to all the features here. Use the
+          sidebar to navigate through the options and settings.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

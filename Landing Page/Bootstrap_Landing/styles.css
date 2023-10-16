@@ -1,0 +1,61 @@
+/* Navbar Styles */
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-dark .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #ffffff;
+}
+
+/* Hero Section Styles */
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+/* Features Section Styles */
+.section .col-sm-4 {
+  margin-bottom: 30px;
+}
+
+/* Testimonials Section Styles */
+.testimonials p {
+  font-style: italic;
+}
+
+/* Contact Section Styles */
+.contact {
+  margin-bottom: 40px;
+}
+
+/* Footer Styles */
+.footer {
+  color: #ffffff;
+}
